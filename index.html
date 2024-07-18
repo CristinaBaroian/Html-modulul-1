@@ -5,83 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property=" og:title" content="First module" />
     <meta property="og:type" content="article" />
+    <meta preperty="og:description" content="This is my first website" />
+    <meta preperty="og:logo" content="images/Logo.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <meta preperty="" content="" />
-    <meta preperty="" content="" />
-    <meta preperty="" content="" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Modulul 1 HTML</title>
   </head>
   <body>
-    <header>
-      <a href="index.html">
-        <img
-          src="images/Logo.jpg"
-          alt="barber-shop-logo"
-          width="68"
-          height="55"
-        />
-      </a>
+    <header class="main-header">
+      <div class="header-container container">
+        <nav class="header-nav">
+          <a href="index.html" class="logo">
+            <img
+              src="images/Logo (2).png"
+              alt="barber-shop-logo"
+              width="68"
+              height="55"
+            />
+          </a>
+          <ul class="header-list list">
+            <li class="header-item">
+              <a href="" class="header-link header-link-active link">About</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link link">Services and Prices</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link link">Barbers</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link link">Contact</a>
+            </li>
+          </ul>
+        </nav>
 
-      <nav>
-        <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Services and Prices</a></li>
-          <li><a href="">Barbers</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
-
-      <a href="tel:+38 044 111 11 11">tel:+38 044 111 11 11</a>
-      <a href="https://goit.global/ro/contacts/" target="_blank"
-        >Book a service</a
-      >
+        <a href="tel:+38 044 111 11 11" class="header-link"
+          >tel:+38 044 111 11 11
+        </a>
+        <button class="primary-button">Book a service</button>
+      </div>
     </header>
 
     <main>
-      <section>
-        <hr />
-        <span>A hair salon for men in Kyiv</span>
-        <h1>BarberShop</h1>
-        <p>
-          We are experts in trendy men's haircuts. We work quickly, carefully,
-          and tastefully.
-        </p>
+      <section class="hero-section section">
+        <div class="container">
+          <hr />
+          <span class="hero-subtitle">A hair salon for men in Kyiv</span>
+          <h1 class="hero-title">BarberShop</h1>
+          <p class="hero-description">
+            We are experts in trendy men's haircuts. We work quickly, carefully,
+            and tastefully.
+          </p>
+        </div>
       </section>
 
-      <section>
-        <img
-          src="images/about-img-1.png"
-          alt="beard trimming"
-          width="270"
-          height="440"
-        />
-        <img src="images/about-img-2.png" alt="hair cuting" />
+      <section class="about-section section">
+        <div class="container">
+          <img
+            src="images/about-img-1.png"
+            alt="beard trimming"
+            width="270"
+            height="440"
+          />
+          <img src="images/about-img-2.png" alt="hair cuting" />
 
-        <span>
-          <img src="images/linie orizontala.png" alt="orizontal line" /> ABOUT
-        </span>
-        <h1>he Best Barbershop in Your City</h1>
-        <h3>
-          If you want to add more confidence to your image, you are definitely
-          in the right place.
-        </h3>
-        <p>
-          We are a team that never rests on its laurels and yearns for change.
-          And once you fall into the hands of our master, you will never be the
-          same again. We are a team that is always on the same wavelength with
-          clients. Therefore, we are always ready to improve everyone who comes
-          to us!
-        </p>
-        <button>Book a service</button>
+          <span class="section-subtitle text-gray">
+            <img src="images/linie orizontala.png" alt="orizontal line" /> ABOUT
+          </span>
+          <h2 class="section-title">he Best Barbershop in Your City</h2>
+          <h3 class="section-description">
+            If you want to add more confidence to your image, you are definitely
+            in the right place.
+          </h3>
+          <p class="section-paragraph">
+            We are a team that never rests on its laurels and yearns for change.
+            And once you fall into the hands of our master, you will never be
+            the same again. We are a team that is always on the same wavelength
+            with clients. Therefore, we are always ready to improve everyone who
+            comes to us!
+          </p>
+          <button class="primary-button text-gray">Book a service</button>
+        </div>
       </section>
 
-      <section>
-        <span>
+      <section class="services-section section">
+        <span class="section-subtitle">
           <img src="images/linie orizontala.png" alt="linie orizontala" />
           Spend time in the company of the best craftsmen
         </span>
-        <h2>Services and Prices</h2>
+        <h2 class="section-title">Services and Prices</h2>
 
         <ul>
           <li><span>Men's Haircut</span><span>from 300 UAH </span></li>
@@ -100,7 +125,7 @@
         </ul>
         <button type="button">Book a Service</button>
       </section>
-      <section>
+      <section class="section">
         <ul>
           <li>600 <sup>+</sup></li>
           <li>20 <sup>+</sup></li>
@@ -117,7 +142,7 @@
           time than to read 10 times.
         </p>
       </section>
-      <section>
+      <section class="section">
         <span
           ><img src="images/linie orizontala.png" alt="linie orizontala" />for
           true connoisseurs of the atmosphere
@@ -156,7 +181,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section">
         <span
           ><img src="images/linie orizontala.png" alt="linie orizontala" />In
           Latin, "barba" means "beard"
@@ -196,7 +221,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section">
         <h2>Contacts</h2>
         <address>
           Main Street,<br />

@@ -1,0 +1,148 @@
+
+/* Style reset */
+
+h1,h2,h3,h4,h5,h6,p {margin: 0;}
+ html { box-sizing: border-box;}
+*,*::after,*::before {box-sizing: inherit;}
+ img { display: block;max-width: 100%; height: auto;}
+address { font-style: normal;}
+.link {text-decoration: none; color: inherit;}
+ .list {list-style: none;  padding: 0;margin: 0;}
+
+/* End style reset */
+
+
+:root {
+   --primary-color: #ff6c00;
+   --white-text: #ffffff;
+   --primary-blue:blue;
+   --primary-gray-60:#9da4bd99; 
+   --primary-gray:#9da4bd;
+   --text-gray:#303030;
+}
+
+body {
+    font-family: "Open Sans",
+        sans-serif;
+}
+
+.container{
+        max-width: 1280px;
+                margin: 0 auto;
+                padding: 130px 55px;
+        
+}
+
+.header-container{
+        
+        padding:40px 55px;
+}
+
+.header-list .header-item:first-child{
+        margin-left: 0;
+}
+
+.header-list .header-item{
+     display: inline;
+     margin-left: 40px;   
+     
+}
+
+.header-link{
+        font-weight: 600;
+        font-size: 12px;
+        letter-spacing: 0.1em;
+        line-height: 16.34px; 
+        color:var(--white-text);
+}
+
+.header-link-active, .header-link:hover{
+    color:var(--primary-color);
+}
+
+.main-header {
+    background-color:var(--primary-blue);
+}
+
+.primary-button{
+        font-weight: 600;
+        font-size: 12px;
+        letter-spacing: 0.09em;
+        line-height: 16.34px;
+        color:var(--white-text);
+        cursor: pointer;
+        padding: 12px 25px;
+        border:1px solid #FF6C00;
+        background-color: initial;
+        border-radius: 25px;
+
+}
+
+.hero-section{
+background-color: aqua;
+}
+
+.hero-subtitle{
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 14.98px;
+        letter-spacing: 0.1em;
+        color:var(--primary-gray-60)
+        
+}
+
+.hero-title{
+        font-family: "Raleway", "Open Sans", sans-serif;
+                font-weight: 700;
+                font-size: 72px;
+                letter-spacing: 0.05em;
+                line-height: 84.53px;
+                color: var(--white-text);
+
+
+}
+
+.hero-description{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 167%;
+                letter-spacing: 0.02em;
+                color: var(--primary-gray)
+
+}
+
+.text-gray{
+        color: var(--text-gray);
+}
+
+.section-subtitle{
+        font-weight: 600;
+        font-size: 11px;
+        letter-spacing: 0.1em;
+        line-height: 14.98px;
+        
+}
+
+.section-title{
+        font-family: "Raleway","Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 42px;
+        letter-spacing: 0.05em;
+       
+}
+
+.section-description{
+        font-weight: 400;
+                font-size: 18px;
+                line-height: 167%;
+                letter-spacing: 0.02em;
+
+}
+
+.section-paragraph{
+        font-weight: 400;
+                font-size: 14px;
+                line-height: 186%;
+                letter-spacing: 0.02em;
+
+}
